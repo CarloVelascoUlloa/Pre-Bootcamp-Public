@@ -1,0 +1,41 @@
+.title {
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    top: 35px;
+    background-color: slategray;
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+}
+.forward {
+    position: absolute;
+    left: 324px;
+}
+.back {
+    position: absolute;
+    left: 290px;
+    top: 125px;
+    
+}
+.refresh {
+    position: absolute;
+    left: 354px;
+}
+.search {
+    position: absolute;
+    left: 25%;
+}
+.topbrowser{
+    display: block;
+    background-color: brown;
+}
+.refresh,
+.back,
+.forward {
+    background-color: slategray;
+}
+.Ninja {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
