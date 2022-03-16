@@ -1,0 +1,32 @@
+body {
+    background-color: blanchedalmond;
+}
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 4em;
+    padding: 1rem;
+}
+h2 {
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+    padding: 1rem;
+}
+h3 {
+    position: relative;
+    bottom: 3rem;
+    text-align: right;
+    background-color: #a97cf1da;
+    text-decoration: underline;
+    color: darkslategray;
+    font-size: 2em;
+    padding: 1rem;
+}
+.cloud {
+    color: #00c3ff
+}
