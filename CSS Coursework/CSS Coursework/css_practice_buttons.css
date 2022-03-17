@@ -1,0 +1,34 @@
+body {
+    background-color: blanchedalmond;
+}
+.search {
+    width: 130px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-weight: 700;
+    padding: 3px;
+    font-size: 12px;
+}
+.add {
+    color: white;
+    background-color: green;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    border: 1px solid green;
+}
+#create {
+    box-shadow: 3px 3px 1px 0px black;
+    color: #c5d3ff;
+    background-color: royalblue;
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+}
+.search, .add, #create {
+    margin: 5px;
+    margin-left: 50px;
+    position: relative;
+    top: 55px;
+}
