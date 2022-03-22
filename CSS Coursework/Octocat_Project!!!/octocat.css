@@ -1,0 +1,39 @@
+#content {
+    background-color: blanchedalmond;
+    border-top: 10px solid black;
+    margin: auto 20em;
+}
+img {
+    height: 200px;
+}
+h1 {
+    color: darkslategray;
+    font-size: 50px;
+    text-align: center;
+}
+#top {
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5b8655;
+}
+#middle {
+    background-color: #696969;
+    justify-content: space-evenly;
+}
+#bottom {
+    background-color: #8b527f;
+    justify-content: space-between;
+
+}
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+a:hover {
+    color: #218fc2;
+}
+#top, #middle, #bottom {
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+}
