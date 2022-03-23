@@ -19,8 +19,6 @@ body {
 }
 .nav-title {
     width: 43%;
-    display: flex;
-    justify-content: flex-start;
     color: beige;
 }
 a {
