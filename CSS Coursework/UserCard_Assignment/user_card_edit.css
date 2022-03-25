@@ -1,0 +1,38 @@
+body {
+    margin: auto 30em;
+    background-color: beige;
+}
+#container {
+    background-color: azure;
+    padding: 50px 0px 80px 150px;
+    margin-top: 60px;
+}
+p {
+    overflow: visible;
+}
+input {
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    height: 40px;
+}
+.submit {
+    position: relative;
+    top: 50px;
+}
+#cancel {
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: rgb(221, 202, 202);
+    box-shadow: 4px 3px 5px rgb(54, 41, 41);
+}
+#submit {
+    background-color: rgb(0, 153, 255);
+    box-shadow: 4px 3px 5px rgb(1, 70, 116);
+}
+#change {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(0, 153, 255);
+    box-shadow: 4px 3px 5px rgb(1, 70, 116);
+}
