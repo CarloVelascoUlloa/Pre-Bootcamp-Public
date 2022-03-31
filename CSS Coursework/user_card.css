@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(247, 215, 167, 0.527);
+}
+#container {
+    background-color: wheat;
+    position: absolute;
+    height: 18rem;
+    width: 25rem;
+    left: 15rem;
+    top: 7.2rem;
+    padding: 0px 0px 0px 20px;
+    border: 4px solid rgba(136, 153, 165, 0.842);
+    border-top: 100px solid rgb(0, 140, 255);
+}
+.name img {
+    border: 6px solid rgb(241, 224, 175);
+    border-radius: 50%;
+}
+.name {
+    position: relative;
+    top: -45px;
+}
+.location {
+    display: flex;
+    align-items: center;
+    top: -70px
+}
+.location h2 {
+    left: 10px;
+}
+.info {
+    top: -80px;
+}
+.location, .location h2, .info {
+    position: relative;
+}
