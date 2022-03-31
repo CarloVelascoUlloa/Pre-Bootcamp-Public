@@ -1,0 +1,54 @@
+#requests {
+    background-color: wheat;
+    display: inline-block;
+    border: 4px solid rgba(136, 153, 165, 0.842);
+    position: relative;
+    left: 45em;
+    top: 3em;
+    height: 15.5em;
+}
+.request_head h1 {
+    margin-left: 10px;
+}
+.request_head {
+    background-color: rgba(97, 49, 14, 0.596);
+    display: inline-flex;
+    width: 360px;
+    align-content: center;
+}
+.request_head img {
+    position: relative;
+    border: 6px solid peachpuff;
+    border-radius: 100%;
+    top: 19px;
+    width: 30px;
+    height: 30px;
+}
+.request_list img{
+    position: relative;
+    top: 12px;
+    border: 3px solid peachpuff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.request_list strong {
+    font-size: 20px;
+    margin-left: 15px;
+}
+.request_list ul {
+    list-style-type: none;
+}
+.yesno{
+    position: relative;
+    left: 12em;
+    top: -8em;
+}
+.request_list li {
+    margin: 0px 0px 20px 0px;
+}
+.yesno img{
+    margin: 0px 5px 30px 0px;
+    width: 40px;
+    height: 40px;
+}
