@@ -1,0 +1,67 @@
+body {
+    margin: auto 20em;
+    margin-top: 3em;
+}
+#head {
+    width: 43.5em;
+    position: relative;
+    left: 0rem;
+    display: inline-flex;
+    background-color: rgba(190, 188, 188, 0.61);
+}
+#head input {
+    position: relative;
+    top: 1.7em;
+    left: 6em;
+    height: 40px;
+    width: 250px;
+}
+.login button {
+    background-color: rgb(52, 160, 255);
+    box-shadow: 3px 3px 5px 2px rgb(29, 93, 148);
+    position: relative;
+    left: 10em;
+    top: 1.7em;
+    margin-left: 1em;
+    height: 3em;
+    width: 90px;
+}
+#ninja_def, #ninja_program {
+    border: 2px solid black;
+    margin-top: 2em;
+    width: 23em;
+    height: 13em;
+    padding-left: 1em;
+}
+#define {
+    position: relative;
+    bottom: 30.6em;
+    left: 29.4em;
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 2em;
+    width: 13em;
+    height: 8em;
+    padding-left: 1em;
+}
+.define {
+    position: relative;
+    left: 7em;
+    top: -7em;
+}
+.underline {
+    text-decoration: underline;
+    color: rgba(35, 150, 245, 0.993);
+}
+.def button {
+    background-color: rgb(5, 136, 5);
+    box-shadow: 3px 3px 5px 2px rgb(0, 97, 0);
+}
+.likes button {
+    background-color: rgb(179, 179, 3);
+    box-shadow: 3px 3px 5px 2px rgb(104, 104, 1);
+}
+:hover.underline, .likes button, .def button, .login button {
+    color: black;
+    cursor: pointer;
+}
